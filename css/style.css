@@ -7,9 +7,150 @@
 }
 
 body {
-  background-color: #fff;
+  background: linear-gradient(120deg, #D9E1F4 60%, #A5B1C9 40%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+
+.container {
+  max-width: 1500px;
+  margin: 15px auto;
+  padding: 0 15px;
+}
+
+.sec__inner {
+  margin: auto;
+  box-shadow: 0 0 100px 0 rgb(219, 216, 216);
+}
+
+.content__left {
+  padding: 0;
+  background: #F2F6FE;
+}
+
+.content__logo {
+  color: rgb(14, 73, 150);
+}
+
+.content__list {
+  list-style-type: none;
+}
+
+.content__item-box {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 0px rgb(219, 219, 219);
+  transition: all 0.2s ease;
+
+}
+
+.active {
+  background: #47B78B;
+  color: #fff;
+}
+
+.content__input-box {
+  border-radius: 3px;
+  box-shadow: 0 0 10px 1px rgb(238, 237, 237);
+}
+
+.content__data-box {
+  width: 46%;
+}
+
+.content__class-box {
+  width: 55%;
+}
+
+.content__passeng-box {
+  width: 40%;
+}
+
+.form__btn {
+  border: none;
+  border-radius: 3px;
+
+  background: rgb(65, 152, 223);
+  color: #fff;
+}
+
+.desc__box {
+  background: #E7F0F9;
+}
+
+.nav-link {
+  font-size: 16px;
+  border-radius: 100px !important;
+  background: #fff;
+}
+
+.desc__list {
+  list-style-type: none;
+}
+
+.active-nav {
+  background: #6B8AE3;
+  color: #fff;
+}
+
+.des-con__list {
+  list-style-type: none;
+}
+
+.des-con__item-box {
+  border-radius: 10px;
+}
+
+.des-con__item {
+  box-shadow: 0 0 20px 0 rgb(230, 227, 227);
+}
+
+.des-con__item:focus {
+  box-shadow: 0 0 20px 0 rgb(192, 189, 189);
+}
+
+.des-con-btn {
+  border-radius: 100px;
+}
+
+.des-con-text {
+  font-size: 16px !important;
+}
+
+.desc-con-text-two {
+  color: #0a2575 !important;
+  font-weight: bold;
+}
+
+.des-con__mon {
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.des-con__mony-tit {
+  font-size: 16px !important;
+  color: rgb(168, 167, 167) !important;
+}
+
+.des-con-text::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+
+}
+
+@media screen and (max-width: 1050px) {
+
+  .sec__inner {
+    flex-direction: column;
+  }
+
+  .sec__inner>div {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+}
